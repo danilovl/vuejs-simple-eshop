@@ -27,7 +27,12 @@
 </template>
 <script>
 export default {
-  props: ['line'],
+  props: {
+    line: {
+      type: Object,
+      required: true
+    }
+  },
   data: function () {
     return {
       qvalue: this.line.quantity

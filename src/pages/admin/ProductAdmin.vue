@@ -38,7 +38,7 @@
               width="50px"
             />
           </td>
-          <td class="text-center product-admin">
+          <td class="text-center product-admin-action">
             <v-btn class="ma-2"
                    outlined
                    color="yellow"
@@ -74,7 +74,6 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
-import { ProductModel } from '../../model/product-model'
 import PageControl from '../../components/PageControls.vue'
 
 export default {
